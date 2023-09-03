@@ -79,7 +79,7 @@
       @font-face {
         font-family: "Archer-Medium";
         src url("{{ 'Archer-Medium.woff2'| file_url }}") format("woff2");
-        font-weight:400;
+        font-weight: 400;
       }
 
       {{ scheme_classes | prepend: 'body' }} {
@@ -88,8 +88,8 @@
       }
 
       :root {
-        
-        --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
+
+        --font-body-family: "Archer-Medium", {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
@@ -298,6 +298,7 @@
     </ul>
 
     <script>
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -336,6 +337,7 @@
         recipientFormExpanded: `{{ 'recipient.form.expanded' | t }}`,
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
       };
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}

@@ -2302,7 +2302,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   margin: 0;
   letter-spacing: 0.1rem;
   min-height: 3.8rem;
-  font-family: var(--font-body-family);
+  font-family: "Miniature-Display";
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,

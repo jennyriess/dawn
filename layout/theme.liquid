@@ -81,13 +81,12 @@
         background-color: rgb(var(--color-background));
       }
 
+      :root {
+
       @font-face {
         font-family: "Archer";
         src url("{{ 'Archer-Medium.woff2'| file_url }}") format("woff2");
       }
-
-      :root {
-
         
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};

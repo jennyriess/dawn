@@ -135,7 +135,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "bestsellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -161,20 +161,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "facial-oil"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "face-mask",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "plant-stem-cell"
           }
         }
       },

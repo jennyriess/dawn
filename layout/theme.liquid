@@ -82,6 +82,12 @@
         font-weight: 400;
       }
 
+      @font-face {
+        font-family: "Miniature-Display";
+        src url("{{ 'miniature-display.woff'| file_url }}") format("woff2");
+        font-weight: 400;
+      }
+
       {{ scheme_classes | prepend: 'body' }} {
         color: rgba(var(--color-foreground), 0.75);
         background-color: rgb(var(--color-background));
@@ -301,6 +307,7 @@
     <script>
       
       
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -339,6 +346,7 @@
         recipientFormExpanded: `{{ 'recipient.form.expanded' | t }}`,
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
       };
+
 
 
     </script>

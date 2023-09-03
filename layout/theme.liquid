@@ -77,8 +77,9 @@
       {% endfor %}
 
       @font-face {
-        font-family: "Archer Medium";
+        font-family: "Archer-Medium";
         src url("{{ 'Archer-Medium.woff2'| file_url }}") format("woff2");
+        font-weight:400;
       }
 
       {{ scheme_classes | prepend: 'body' }} {

@@ -1,5 +1,43 @@
 {
   "sections": {
+    "ee174699-658e-4458-843b-9ca81c5c0c7d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20658386207005__ee174699-658e-4458-843b-9ca81c5c0c7d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean Skincare Made for You",
+            "heading_size": "h1"
+          }
+        },
+        "template--20658386207005__ee174699-658e-4458-843b-9ca81c5c0c7d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "→ Shop All",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20658386207005__ee174699-658e-4458-843b-9ca81c5c0c7d-heading-1",
+        "template--20658386207005__ee174699-658e-4458-843b-9ca81c5c0c7d-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Hero-image.jpg",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "5b8a178b-d2e7-4971-867b-fb426343ef25": {
       "type": "image-with-text",
       "blocks": {
@@ -193,6 +231,7 @@
     }
   },
   "order": [
+    "ee174699-658e-4458-843b-9ca81c5c0c7d",
     "5b8a178b-d2e7-4971-867b-fb426343ef25",
     "fbfee691-d32f-497f-828d-0105ad8438b8",
     "featured_collection",

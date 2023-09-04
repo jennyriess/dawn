@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/GLOWE-LOGO.png",
-    "logo_width": 150,
+    "logo_width": 250,
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "type_header_font": "space_mono_n4",
     "heading_scale": 100,
@@ -152,7 +152,7 @@
       },
       "background-2": {
         "settings": {
-          "background": "#fff",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#1f201d",
           "button": "#121212",
@@ -165,7 +165,7 @@
         "settings": {
           "background": "#1f201d",
           "background_gradient": "",
-          "text": "#fff",
+          "text": "#ffffff",
           "button": "#ffffff",
           "button_label": "#000000",
           "secondary_button_label": "#ffffff",

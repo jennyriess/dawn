@@ -48,54 +48,23 @@
         "padding_bottom": 36
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "We make skincare that is good for your face, your body, the earth, and customized for your unique skin type & needs",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "New in",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "bestsellers",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "collection": "new-arrivals",
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
+        "show_view_all": true,
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -226,7 +195,6 @@
   "order": [
     "5b8a178b-d2e7-4971-867b-fb426343ef25",
     "fbfee691-d32f-497f-828d-0105ad8438b8",
-    "rich_text",
     "featured_collection",
     "collage",
     "video",

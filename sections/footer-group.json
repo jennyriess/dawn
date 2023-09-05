@@ -8,8 +8,8 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "",
+            "menu": "footer-left"
           }
         },
         "footer-1": {

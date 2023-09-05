@@ -122,46 +122,6 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "facial-oil"
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "face-mask",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "plant-stem-cell"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "cbc8b9c1-2519-431f-9388-343cc50a0a9b": {
       "type": "featured-collection",
       "settings": {
@@ -213,7 +173,6 @@
     "fbfee691-d32f-497f-828d-0105ad8438b8",
     "featured_collection",
     "571f7e82-9dd1-46dd-9805-dc8e165633c8",
-    "collage",
     "cbc8b9c1-2519-431f-9388-343cc50a0a9b",
     "96b57070-cdc0-4cb8-bad9-ae514cfd1d11"
   ]

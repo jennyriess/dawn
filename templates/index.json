@@ -96,9 +96,9 @@
         "template--20658386207005__571f7e82-9dd1-46dd-9805-dc8e165633c8-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_label": "View Collection",
+            "button_link": "shopify:\/\/collections\/plant-stem-cell",
+            "button_style_secondary": true
           }
         }
       },

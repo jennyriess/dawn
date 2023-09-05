@@ -5,24 +5,24 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "166463c9-11b2-427a-9cbc-28030d49a872": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-left-1"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
             "heading": "",
             "menu": "footer-left"
           }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1"
+        "166463c9-11b2-427a-9cbc-28030d49a872",
+        "footer-0"
       ],
       "settings": {
         "color_scheme": "inverse",

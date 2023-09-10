@@ -2465,6 +2465,8 @@ product-info .loading-overlay:not(.hidden) ~ *,
   .header:not(.header--middle-left, .header--middle-center)
     .header__inline-menu {
     margin-top: 1.05rem;
+    border-right: 1px solid black;
+	height: 100%;
   }
 }
 

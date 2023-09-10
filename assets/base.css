@@ -2607,9 +2607,30 @@ product-info .loading-overlay:not(.hidden) ~ *,
   padding: 0;
 }
 
+
+
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+}
+
+@media (min-width: 990px) {
+  .header__search summary span svg {
+    display: none;
+  }
+
+  .header__search summary span::after {
+    content: 'Search';
+    line-height: 1;
+  }
+
+  a.header__icon--cart svg {
+    display: none;
+  }
+
+  a.header__icon--cart::after {
+    content: 'Cart';
+  }
 }
 
 .header__icon--menu[aria-expanded="true"]::before {

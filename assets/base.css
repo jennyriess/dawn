@@ -2447,12 +2447,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
     column-gap: 2rem;
   }
 
-.header--middle-center {
-    grid-template-areas: 'navigation heading icons';
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
-  }
-
   .header--middle-center a.header__heading-link {
     text-align: center;
   }
@@ -2613,8 +2607,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   padding: 0;
 }
 
-
-
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
@@ -2626,7 +2618,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   .header__search summary span::after {
-    content: 'Search';
+    content: "Search";
     line-height: 1;
   }
 
@@ -2635,7 +2627,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   }
 
   a.header__icon--cart::after {
-    content: 'Cart';
+    content: "Cart";
   }
 }
 

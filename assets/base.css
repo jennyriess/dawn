@@ -2835,20 +2835,6 @@ details[open] > .header__submenu {
   margin-left: 0;
 }
 
-.header--middle-center .header__inline-menu>ul>li {
-	border-right: 1px solid black;
-	height: 100%;
-}
-
-.header--middle-center .header__inline-menu,
-.header--middle-center .list-menu--inline,
-.header--middle-center .header__inline-menu>ul>li .header__menu-item,
-.header--middle-center .header__inline-menu>ul>li .mega-menu,
-.header--middle-center .header__inline-menu>ul>li .mega-menu>.header__menu-item,
-.header--middle-center .header__inline-menu>ul>li>header-menu>details {
-	height: 100%;
-}
-
 @media screen and (min-width: 990px) {
   .header__inline-menu {
     display: block;
